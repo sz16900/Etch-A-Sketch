@@ -1,0 +1,17 @@
+:root {
+	--gridLength: 0;
+  }
+
+#grid{
+	display: grid;
+	grid-template-columns: repeat(var(--gridLength), 1fr);
+	grid-template-rows: repeat(var(--gridLength), 1fr);
+	grid-column-gap: 1px;
+	grid-row-gap: 1px;
+	width: 960px;
+	height: 500px;
+	align-content: center;
+	border: 1px solid black;
+	background: #eee;
+  }
+
